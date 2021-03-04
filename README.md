@@ -6,7 +6,7 @@ This system minimizes the **number of transactions** among multiple banks in the
 
 Let's take an example. We have World Bank, Bank B, Bank C, Bank D and Bank E. Some amounts are needed to be payed. Bank B owes World Bank Rs 300 , Bank C owes World Bank Rs 700, Bank D owes Bank B Rs 500 and Bank E owes Bank B Rs 500. This is represented below as a directed graph with the directed edge representing debts.
 
-![image](https://user-images.githubusercontent.com/54183085/109960693-1d085980-7d0f-11eb-8610-c8f3f0d1873b.png)
+![image](https://user-images.githubusercontent.com/54183085/109980523-04576e00-7d26-11eb-848b-10167950a7a0.png)
 
 **But there's a catch!!**
 Each Bank only supports a set of modes of payments and can _make_ or _receive_ payments **only** via those. Only World Bank suppports **all** modes of payments.\ 
@@ -32,7 +32,7 @@ Now X pays the amount z to Y. Then 3 cases may arrived:
 The same process is repeated for the remaining banks.\
 For the current example, the transactions for minimum cash flow are as follows:
 
-![image](https://user-images.githubusercontent.com/54183085/109971067-d10fe180-7d1b-11eb-9b83-d2779f5779f3.png)
+![image](https://user-images.githubusercontent.com/54183085/109980573-0f120300-7d26-11eb-81c2-ca9e31b07329.png)
 
 So this is the required answer.
 
